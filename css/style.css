@@ -39,6 +39,7 @@ a{
 .center{
   width: 100%;
   padding: 0 10%;
+  text-align: center;
 }
 
 hr{
@@ -126,6 +127,7 @@ nav .nav-right{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  text-align: left;
 }
 
 .jumbotron-text h1{
@@ -141,7 +143,6 @@ nav .nav-right{
 }
 
 .section-1 .text{
-  text-align: center;
   line-height: 34px;
   padding-top: 37px;
 }
@@ -169,22 +170,13 @@ nav .nav-right{
 .section-2 .box{
   width: 30%;
   margin: auto;
-  text-align: center;
   margin: 0 1%;
   display: inline-block;
   vertical-align: top;
 }
 
-.section-2 .raw-1 .box-1 img{
-  width: 37%;
-}
-
-.section-2 .box-2 img{
-  width: 75%;
-}
-
-.section-2 .box-3 img{
-  width: 50%;
+.section-2 .raw-1 .box img{
+  height: 200px;
 }
 
 .section-2 .raw-2 h4{
@@ -204,14 +196,6 @@ nav .nav-right{
 }
 
 /* section 3 */
-.section-3{
-  text-align: center;
-}
-
-.section-3 .box-img img{
-  width: 100%;
-}
-
 .section-3 .box-text{
   vertical-align: top;
   text-align: left;
@@ -239,6 +223,9 @@ nav .nav-right{
   margin: 4%;
 }
 
+.section-3 .box-img img{
+  width: 100%;
+}
 
 /* section 4 */
 .section-4{
@@ -252,6 +239,7 @@ nav .nav-right{
 .section-4 h4{
   color: black;
   font-size: 155%;
+  text-align: left;
 }
 
 .section-4 .box-2{
