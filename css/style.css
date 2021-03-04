@@ -21,12 +21,16 @@ body{
   float: left;
 }
 
+.m-30{
+  margin: 30px 0;
+}
+
 .w-50{
   width: 49%;
 }
 
-.m-30{
-  margin: 30px 0;
+h4{
+  color: black;
 }
 
 a{
@@ -46,6 +50,12 @@ hr{
   border-top: 1px solid #B3B3B3;
   width: 95%;
   margin: auto;
+}
+
+.two-box{
+  display: inline-block;
+  width: 40%;
+  margin: 4%;
 }
 
 /* header */
@@ -83,7 +93,7 @@ nav .logo{
   width: 15%;
 }
 
-.logo img{
+nav .logo img{
   margin-top: 14px;
 }
 
@@ -96,6 +106,7 @@ nav .nav-right{
   text-align: right;
 }
 
+/* button */
 .btn{
   display: inline-block;
   color: white;
@@ -118,6 +129,7 @@ nav .nav-right{
   padding: 20px;
 }
 
+/* jumbotron in header */
 .jumbotron{
   height: 470px;
   position: relative;
@@ -147,8 +159,7 @@ nav .nav-right{
   padding-top: 37px;
 }
 
-.section-1 .text h3{
-  color: black;
+.section-1 .text h4{
   font-size: 170%;
 }
 
@@ -157,26 +168,21 @@ nav .nav-right{
 }
 
 /* section 2 */
-.section-2 .raw-1{
-  width: 100%;
+.section-2{
   margin-top: 40px;
-}
-
-.section-2 .raw-3{
-  width: 100%;
   margin-bottom: 20px;
 }
 
 .section-2 .box{
-  width: 30%;
+  width: 28%;
   margin: auto;
-  margin: 0 1%;
+  margin: 0 2%;
   display: inline-block;
   vertical-align: top;
 }
 
-.section-2 .raw-1 .box img{
-  height: 200px;
+.section-2 img{
+  height: fit-content;
 }
 
 .section-2 .raw-2 h4{
@@ -202,7 +208,6 @@ nav .nav-right{
 }
 
 .section-3 .box-text h4{
-  color: black;
   font-size: 155%;
 }
 
@@ -217,27 +222,18 @@ nav .nav-right{
   text-transform: none;
 }
 
-.section-3 .box-text, .box-img{
-  display: inline-block;
-  width: 40%;
-  margin: 4%;
-}
-
-.section-3 .box-img img{
-  width: 100%;
-}
-
 /* section 4 */
 .section-4{
   background-color: #D3D3D3;
   padding: 3% 10%;
+  margin: 0;
 }
 .section-4 div{
   display: inline-block;
+  margin: 0;
 }
 
 .section-4 h4{
-  color: black;
   font-size: 155%;
   text-align: left;
 }
@@ -251,7 +247,6 @@ nav .nav-right{
 }
 
 .section-4 .box-2 .select{
-  display: inline-block;
   margin: 0 25px;
   font-size: 120%;
   text-align: left;
@@ -262,11 +257,96 @@ nav .nav-right{
   width: 130px;
 }
 
-/* help */
-section .help{
-
+/* section-5 */
+.section-5 .text{
+  text-align: justify;
+  padding: 45px 10px;
 }
 
+.section-5 h4{
+  font-size: 205%;
+}
+
+.section-5 p{
+  padding: 40px 0;
+  font-size: 140%;
+}
+
+.section-5 .text p:last-child{
+  display: inline-block;
+  color: #BFCBDC;
+  font-size: 108%;
+  text-align: center;
+  padding: 0;
+}
+
+.section-5 .btn{
+  font-size: 90%;
+  text-align: left;
+  padding: 10px 25px;
+  line-height: 120%;
+}
+
+/* section 6 */
+.section-6{
+  padding: 10% 25%;
+}
+
+.section-6 .text{
+  margin: 2%;
+}
+
+.section-6 .text h4{
+  font-size: 150%;
+}
+
+.section-6 .text span{
+  color: #7CBC05;
+}
+
+.section-6 .text p:first-of-type{
+  margin: 18px 0;
+}
+
+.section-6 .text p:last-of-type{
+  font-size: 130%;
+}
+
+.section-6 .text a{  
+  color: #BFCBDC;
+  font-size: 100%;
+  text-transform: none;
+  text-decoration: underline;
+  line-height: 60px;
+}
+
+/* section-7 */
+.section-7{
+  background-color: #0B3259;
+}
+
+.section-7 .text{
+  width: 30%;
+  padding: 10% 0;
+  text-align: left;
+}
+
+.section-7 .text h4{
+  color: white;
+  font-size: 200%;
+}
+
+.section-7 .text p{
+  padding: 40px 0 40px;
+  line-height: 22px;
+}
+
+.section-7 .text a{
+  font-size: 120%;
+  padding: 10px 20px;
+}
+
+/* help */
 section.help a{
   position: fixed;
   bottom: 0;
