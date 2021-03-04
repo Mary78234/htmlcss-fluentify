@@ -31,6 +31,7 @@ body{
 
 h4{
   color: black;
+  font-size: 200%;
 }
 
 a{
@@ -56,6 +57,13 @@ hr{
   display: inline-block;
   width: 40%;
   margin: 4%;
+}
+
+.three-box{
+  width: 28%;
+  margin: auto;
+  margin: 0 2%;
+  display: inline-block;
 }
 
 /* header */
@@ -159,10 +167,6 @@ nav .nav-right{
   padding-top: 37px;
 }
 
-.section-1 .text h4{
-  font-size: 170%;
-}
-
 .section-1 .text p{
   font-size: 120%;
 }
@@ -174,10 +178,6 @@ nav .nav-right{
 }
 
 .section-2 .box{
-  width: 28%;
-  margin: auto;
-  margin: 0 2%;
-  display: inline-block;
   vertical-align: top;
 }
 
@@ -186,7 +186,6 @@ nav .nav-right{
 }
 
 .section-2 .raw-2 h4{
-  font-size: 176%;
   color: #7CBC05;
 }
 
@@ -205,10 +204,6 @@ nav .nav-right{
 .section-3 .box-text{
   vertical-align: top;
   text-align: left;
-}
-
-.section-3 .box-text h4{
-  font-size: 155%;
 }
 
 .section-3 .box-text p{
@@ -234,7 +229,6 @@ nav .nav-right{
 }
 
 .section-4 h4{
-  font-size: 155%;
   text-align: left;
 }
 
@@ -261,10 +255,6 @@ nav .nav-right{
 .section-5 .text{
   text-align: justify;
   padding: 45px 10px;
-}
-
-.section-5 h4{
-  font-size: 205%;
 }
 
 .section-5 p{
@@ -296,10 +286,6 @@ nav .nav-right{
   margin: 2%;
 }
 
-.section-6 .text h4{
-  font-size: 150%;
-}
-
 .section-6 .text span{
   color: #7CBC05;
 }
@@ -327,13 +313,12 @@ nav .nav-right{
 
 .section-7 .text{
   width: 30%;
-  padding: 10% 0;
+  padding: 10% 0 6%;
   text-align: left;
 }
 
 .section-7 .text h4{
   color: white;
-  font-size: 200%;
 }
 
 .section-7 .text p{
@@ -345,6 +330,136 @@ nav .nav-right{
   font-size: 120%;
   padding: 10px 20px;
 }
+
+/* section-8 */
+.section-8{
+  padding: 4% 10%;
+}
+
+.section-8 .text h4{
+  margin: 6% 0;
+}
+
+.section-8 .raw-1 img{
+  display: block;
+  text-align: left;
+  height: 60px;
+}
+
+.section-8 .box{
+  text-align: left;
+}
+
+.section-8 h5{
+  color: black;
+  font-size: 140%;
+  line-height: 70px;
+}
+
+.section-8 .text p, .section-8 .text .raw-3 a{
+  font-size: 120%;
+  line-height: 25px;
+}
+
+.section-8 .text hr{
+  margin: 20px 0;
+  border: 3px solid;
+}
+
+.section-8 .text .raw-3 .box-1, .section-8 .text .raw-3 .box-1 a{
+  color: #96C9F6;
+}
+
+.section-8 .text .raw-3 .box-2, .section-8 .text .raw-3 .box-2 a{
+  color: #F5A618;
+}
+
+.section-8 .text .raw-3 .box-3, .section-8 .text .raw-3 .box-3 a{
+  color: #82B417;
+}
+
+.section-8 .text .raw-3 a{
+  text-transform: none;
+  text-decoration: underline;
+}
+
+/* section-9 */
+.section-9{
+  background-color: #0B3259;
+}
+
+.section-9 .text{
+  width: 35%;
+  padding: 6% 0;
+  text-align: left;
+}
+
+.section-9 h4{
+  color: white;
+}
+
+.section-9 span{
+  color: #F5A618;
+}
+
+.section-9 p{
+  line-height: 40px;
+}
+
+/* section-footer */
+.section-footer{
+  background-color: #16416B;
+}
+
+.section-footer .container{
+  width: 80%;
+  margin: auto;
+  padding: 5% 0;
+}
+
+.section-footer h5{
+  color: white;
+  font-size: 150%;
+  line-height: 50px;
+}
+
+.section-footer .box-left, .section-footer .box-right{
+  width: 49%;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section-footer .box-left{
+  text-align: left;
+}
+
+.section-footer .box-right{
+  text-align: right;
+}
+
+.section-footer .box-left ul{
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+}
+
+.section-footer .box-left a{  
+  color: #BFCBDC;
+  font-size: 90%;
+  text-transform: none;
+  line-height: 30px;
+}
+
+.section-footer .box-right h5{
+  line-height: 50px;
+}
+
+.section-footer .box-right p{
+  margin: 40px 0;
+  line-height: 20px;
+}
+
 
 /* help */
 section.help a{
